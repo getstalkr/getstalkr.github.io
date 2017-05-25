@@ -1,0 +1,54 @@
+{
+  "viewports": [
+    { "name": "laptop", "width": 1280, "height": 800 },
+    { "name": "iPad - Landscape", "width": 1024, "height": 768 },
+    { "name": "iPad - Portrait", "width": 768, "height": 1024 },
+    { "name": "iPhone 6 - Landscape", "width": 375, "height": 667 },
+    { "name": "iPhone 6 - Portrait", "width": 667, "height": 375 }
+  ],
+  "scenarios": [{
+    "label": "About Section",
+    "url": "http://localhost:3000",
+    "hideSelectors": [],
+    "removeSelectors": ["#__bs_notify__"],
+    "selectors": ["#about"],
+    "readyEvent": null,
+    "delay": 500,
+    "misMatchThreshold": 0.1,
+    "onReadyScript": null,
+    "onBeforeScript": null
+  }, {
+    "label": "Testimonials Section",
+    "url": "http://localhost:3000",
+    "hideSelectors": [],
+    "removeSelectors": ["#__bs_notify__"],
+    "selectors": ["#testimonials"],
+    "readyEvent": null,
+    "delay": 500,
+    "misMatchThreshold": 0.1,
+    "onReadyScript": null,
+    "onBeforeScript": null
+  }, {
+    "label": "Share Section",
+    "url": "http://localhost:3000",
+    "hideSelectors": [],
+    "removeSelectors": ["#__bs_notify__"],
+    "selectors": ["#share"],
+    "readyEvent": null,
+    "delay": 500,
+    "misMatchThreshold": 0.1,
+    "onReadyScript": null,
+    "onBeforeScript": null
+  }],
+  "paths": {
+    "bitmaps_reference": "test/regression/reference",
+    "bitmaps_test": ".tmp",
+    "casper_scripts": null,
+    "html_report": "test/regression/html_report",
+    "ci_report": "test/regression/ci_report"
+  },
+  "casperFlags": [],
+  "engine": "phantomjs",
+  "report": ["browser", "CLI"],
+  "debug": false
+}

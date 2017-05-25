@@ -1,0 +1,26 @@
+### Node ###
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+### Bower ###
+
+src/vendor
+.bower-cache
+.bower-registry
+.bower-tmp
+
+### macOS ###
+
+*.DS_Store
+
+### Project ###
+
+dist
+test
+.tmp

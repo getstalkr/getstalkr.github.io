@@ -12,6 +12,7 @@
       "ID":"UA-58120604-9"
     },
     "socialNetworks": {
+      "github": "getstalkr",
       "facebook": "getstalkr",
       "twitter": "getstalkr",
       "instagram":"getstalkr"
@@ -29,7 +30,7 @@
     },
     {
       "name": "Matheus Albuquerque",
-      "description": "web alchemist • full-stack developer draft • illustration enthusiast • open source lover • indie/fork/stoner/{any}wave listener",
+      "description": "Basically: web alchemist • full-stack developer draft • illustration enthusiast • open source lover • indie/fork/stoner/{any}wave listener",
       "alias": "ythecombinator",
       "socialNetworks": {
         "github": "ythecombinator",

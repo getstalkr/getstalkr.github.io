@@ -1,0 +1,62 @@
+{
+  "about":{
+    "title":"stalkr",
+    "description":"Modern application & infrastructure monitoring",
+    "author":"stalkr, Inc",
+    "canonical":"http://getstal.kr",
+    "image":"images/banner.png",
+    "mobile":{
+      "themeColor":"#ffffff"
+    },
+    "googleAnalytics":{
+      "ID":"UA-58120604-9"
+    },
+    "socialNetworks": {
+      "facebook": "getstalkr",
+      "twitter": "getstalkr",
+      "instagram":"getstalkr"
+    }
+  },
+  "team": [
+    {
+      "name": "Bruno Macabeus",
+      "description": "He's is someone who has learnt to code thanks to open source and loves giving it back to the community through code. He likes going to in meetups and whenever possible he gives lectures and organize new local meetings, so that the community keep growing!",
+      "alias": "macabeus",
+      "socialNetworks": {
+        "github": "macabeus",
+        "linkedin": "macabeus"
+      }
+    },
+    {
+      "name": "Matheus Albuquerque",
+      "description": "web alchemist • full-stack developer draft • illustration enthusiast • open source lover • indie/fork/stoner/{any}wave listener",
+      "alias": "ythecombinator",
+      "socialNetworks": {
+        "github": "ythecombinator",
+        "twitter": "ythecombinator",
+        "linkedin": "ythecombinator"
+      }
+    },
+    {
+      "name": "Matheus Martins",
+      "description": "He's a 21 year-old versatile developer based in Brazil, currently working on in many areas of software including: games (VR, Desktop and Mobile); native apps (iPhone, iPad and Apple TV) and back-end.",
+      "alias": "cardoso",
+      "socialNetworks": {
+        "github": "cardoso",
+        "twitter": "mthsmcrds",
+        "linkedin": "matheus-martins-2abbb1108"
+      }
+    }
+
+  ],
+  "packages": [
+    {
+      "name": "github-commits-feed",
+      "description": "@stalkr-io micro service which feeds our clients with GitHub push events."
+    },
+    {
+      "name": "travis-builds-feed",
+      "description": "@stalkr-io micro service which feeds our clients with Travis build events."
+    }
+  ]
+}

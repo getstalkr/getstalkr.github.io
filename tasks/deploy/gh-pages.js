@@ -9,5 +9,5 @@ const path = require('path');
 
 ghpages.publish(path.join(__dirname, '../..', 'dist'), {
   branch: 'master',
-  message: 'Deploy current dev branch to GitHub Pages'
+  message: `Deployed 'dev' branch to 'master' at ${new Date().toLocaleString()}`
 }, console.info(`Deploying to 'master' at ${new Date().toLocaleString()}`));

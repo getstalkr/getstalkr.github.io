@@ -1,0 +1,13 @@
+{
+	"name": "jquery.scrollex",
+	"version": "0.2.1",
+	"description": "Nifty scroll events for jQuery.",
+	"keywords": [ "jquery", "scroll", "scrolling" ],
+	"homepage": "http://github.com/ajlkn/jquery.scrollex",
+	"license": "MIT",
+	"ignore": [ ],
+	"main": "./jquery.scrollex.js",
+	"dependencies": {
+		"jquery": ">=1.11"
+	}
+}

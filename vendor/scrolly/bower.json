@@ -1,0 +1,41 @@
+{
+    "name": "scrolly",
+    "version": "0.6.2",
+    "description": "Scrolly: fast vanilla JS scrollbar plugin.",
+    "keywords": [
+        "scroll", "scrollbar", "scrolly", "bar",
+        "js", "javascript", "vanilla", "amd",
+        "react", "reactjs", "component",
+        "jquery", "zepto", "jbone",
+        "annexare"
+    ],
+    "author": {
+        "name": "Dmytro",
+        "email": "z@annexare.com",
+        "url": "https://github.com/z-ax"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "jbone": "*",
+        "react": "^0.14.3"
+    },
+    "ignore": [
+        "*",
+        "!public/",
+        "!public/css/*",
+        "!public/js/*scrolly.*js",
+        "!LICENSE",
+        "!README.md"
+    ],
+    "main": "public/js/scrolly.js",
+    "moduleType": [
+        "amd",
+        "globals"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/annexare/scrolly.js.git"
+    }
+}

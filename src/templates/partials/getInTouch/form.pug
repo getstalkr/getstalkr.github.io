@@ -1,0 +1,14 @@
+section
+  form(method='post', action='https://mailto-stalkr.herokuapp.com')
+    .field.half.first
+      label(for='name') Name
+      input#name(type='text', name='name')
+    .field.half
+      label(for='email') Email
+      input#email(type='text', name='email')
+    .field
+      label(for='message') Message
+      textarea#message(name='message', rows='5')
+    ul.actions
+      li
+        a.button.submit(href='') Send Message

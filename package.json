@@ -60,7 +60,7 @@
     "build:images:imagemin": "imagemin src/images/**/* -o dist/images",
     "build:images": "run-s build:images:imagemin",
     "build:docs": "cp -rf *.md dist",
-    "build:domainConfig": "echo getstalk.kr > dist/CNAME",
+    "build:domainConfig": "echo getstal.kr > dist/CNAME",
     "build": "run-s clean build:templates build:scripts build:styles build:vendor build:images build:docs build:domainConfig",
     "serve": "browser-sync start -s dist -f dist",
     "watch:templates": "onchange 'src/templates' 'src/config.json' -- yarn build:templates",

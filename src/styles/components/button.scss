@@ -26,8 +26,8 @@
     --background: var(--fg-color);
     --border: var(--background);
     &:hover {
-      --background: var(--oc-gray-9);
-      --border: var(--oc-gray-9);
+      --background: var(--light-desaturated-violet);
+      --border: var(--dark-desaturated-violet);
     }
   }
 }

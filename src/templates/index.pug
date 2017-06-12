@@ -1,24 +1,20 @@
 doctype html
-
-html
+html(lang='en')
 
   include layouts/head/_
 
-  body
+  body.over-dark
 
-    include partials/menu
+    include partials/header/_
+    include partials/what
+    include partials/flow
 
-    #wrapper
+    include partials/features/extensible
+    include partials/features/stack
+    include partials/features/platforms
 
-      include partials/welcome
-
-      include partials/packages
-
-      include partials/team
-
-      include partials/getInTouch/_
-
-    include partials/footer
+    include partials/catalog
+    include partials/next
+    include partials/download
 
     include layouts/scripts
-

@@ -1,0 +1,10 @@
+section#catalog.Content
+  .Container
+    .Title.center.margin
+      span.text Plugins
+      span.subtext Currently we have these services available to be integrated with stalkr:
+    .Packages
+      each package in packages
+        .Package
+          a(href=`https://github.com/getstalkr/${package.repo}`, title=`${package.name} Plugin` target='_blank')
+            img(src=`images/${package.name.toLowerCase()}.png`, alt=`${package.name} logo`)

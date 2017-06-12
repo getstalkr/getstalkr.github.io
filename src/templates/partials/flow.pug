@@ -1,0 +1,13 @@
+.Content.center.small
+  .Container
+    .Title.center.margin
+      span.text The Flow
+      span.subtext Integrating different monitoring tools has never been that easy!
+    .Flow
+      each step in steps
+        .topic
+          span.title #{steps.map(x => x.title).indexOf(`${step.title}`) + 1}
+          p
+          span.subtitle #{step.title}
+          p
+            | #{step.description}

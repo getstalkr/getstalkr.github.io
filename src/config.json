@@ -52,12 +52,40 @@
   ],
   "packages": [
     {
-      "name": "github-commits-feed",
-      "description": "@stalkr-io micro service which feeds our clients with GitHub push events."
+      "name": "Github",
+      "repo": "github-commits-feed"
     },
     {
-      "name": "travis-builds-feed",
-      "description": "@stalkr-io micro service which feeds our clients with Travis build events."
+      "name": "Travis",
+      "repo": "travis-builds-feed"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Download our  TV client",
+      "description": "Don't waste your time: download it now on the App Store."
+    },
+    {
+      "title": "Pick the services you need",
+      "description": "Choose the right micro services to handle the monitoring tools your application stack already uses and deploy them to PaaS of your choice."
+    },
+    {
+      "title": "We're almost done",
+      "description": "Point both stalkr clients and your services notifications APIs to the endpoints you've set in the previous step!"
+    }
+  ],
+  "roadmap": [
+    {
+      "title": "The Catalog",
+      "description": "You'll use it to quickly and easily find open-source packages to speed your development. It basically discovers all the available stalkr plugins in popular back-end registries out there–e.g. node.js-based plugins available npmjs.com registry can be discovered if they contain stalkr-plugin value in keywords field of package.json."
+    },
+    {
+      "title": "The CLI",
+      "description": "You'll use it to quickly bootstrap and deploy your packages right from your terminal. It basically works as an abstraction layer over commom CLI tools used to get a stalkr package up and running."
+    },
+    {
+      "title": "The Cloud",
+      "description": "It'll be a SaaS which behaves as one our revenue stream and helps your organizing your projects across organizations, teams, roles etc."
     }
   ]
 }

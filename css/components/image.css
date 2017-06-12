@@ -1,1 +1,0 @@
-.Image{display:flex;justify-content:center;align-items:center}.Image img{width:100%}.Image.shadow img{box-shadow:var(--shadow-large)}.Image.border img{border-top:1px solid var(--oc-gray-0);border-radius:2px}.Image.tv img{border-radius:7px}

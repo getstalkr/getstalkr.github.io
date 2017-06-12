@@ -1,1 +1,0 @@
-.Flow{display:flex;flex-wrap:wrap;justify-content:center}.Flow .topic{width:250px;margin:40px 25px}.Flow .topic .title{font-size:var(--font-size-small);letter-spacing:var(--tracking);text-transform:uppercase;font-weight:700}@media screen and (max-width: 850px){.Flow .topic{width:100%;margin:20px 25px}}

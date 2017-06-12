@@ -53,7 +53,7 @@
     "build:scripts:uglify": "mkdir -p dist/js && uglifyjs node_modules/.babel-cache/*.js -m -c -o dist/js/main.min.js && rm -rf node_modules/.babel-cache",
     "build:scripts:eslint": "eslint -c .eslintrc src/js",
     "build:scripts": "run-s build:scripts:eslint build:scripts:babel build:scripts:uglify",
-    "build:styles:sass": "mkdir -p dist/css && node-sass src/styles --output-style compressed -o dist/css",
+    "build:styles:sass": "mkdir -p dist/css && node-sass --include-path src/styles src/styles/main.scss --output-style compressed dist/css/main.min.css",
     "build:styles:lint": "sass-lint -c .sass-lint.yml 'src/styles/*.scss' -v -q",
     "build:styles": "run-s build:styles:sass",
     "build:vendor": "cp -rf src/vendor dist",

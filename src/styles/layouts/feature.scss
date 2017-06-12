@@ -1,0 +1,36 @@
+.Feature {
+  display: flex;
+  height: 100%;
+  .Title {
+    line-height: 1em;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 50px;
+    text-align: left;
+    width: 50%;
+    .Button {
+      margin-top: 20px;
+    }
+  }
+  .Image {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .Feature {
+    flex-direction: column;
+    .info {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+    .Image {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.Content {
+  --bg: var(--bg-color);
+  --fg: var(--fg-color);
+  background: var(--bg);
+  color: var(--fg);
+  padding: 100px 25px;
+  &.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &.full {
+    width: 100%;
+    min-height: 100vh;
+  }
+  &.medium {
+    min-height: 650px;
+  }
+  &.small {
+    min-height: 500px;
+  }
+  &.border {
+    border-top: 1px solid var(--border-light);
+  }
+  &.dark {
+    --bg: var(--fg-color);
+    --fg: var(--bg-color);
+    .Button {
+      --color: var(--fg-color);
+    }
+    --border-light: var(--oc-gray-9);
+  }
+  &.gray {
+    background: var(--light-gray);
+  }
+  &.hero {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    #Logo {
+      margin-bottom: 10vh;
+    }
+  }
+  &.bg-image {
+    --tint: rgba(0, 0, 0, 0.65);
+    background-color: var(--hero-bg-color);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.Content.dark p {
+  strong {
+    color: var(--bg-color);
+  }
+  a {
+    --color: var(--bg-color);
+  }
+}
+
+.Content.dark {
+  #Arrow {
+    --color: var(--bg-color);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .Content {
+    padding: 50px 25px;
+  }
+  .Container {
+    width: 100%;
+  }
+  .Content {
+    &.medium, &.small {
+      min-height: auto;
+    }
+  }
+}

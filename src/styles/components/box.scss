@@ -1,0 +1,10 @@
+.Box {
+  &.center-x {
+    display: flex;
+    justify-content: center;
+  }
+  &.list > a {
+    display: block;
+    margin-bottom: 25px;
+  }
+}

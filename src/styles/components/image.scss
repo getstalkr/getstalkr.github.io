@@ -1,0 +1,18 @@
+.Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+  &.shadow img {
+    box-shadow: var(--shadow-large);
+  }
+  &.border img {
+    border-top: 1px solid var(--oc-gray-0);
+    border-radius: 2px;
+  }
+  &.tv img {
+    border-radius: 7px;
+  }
+}

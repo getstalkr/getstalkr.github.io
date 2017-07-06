@@ -52,6 +52,10 @@
   ],
   "packages": [
     {
+      "name": "Apex",
+      "repo": "apex_ping-alerts"
+    },
+    {
       "name": "Github",
       "repo": "github-commits-feed"
     },

@@ -31,7 +31,7 @@
 
 *stalkr* is a simple–yet powerful–set of tools which gathers data from both continuous integration and application infrastructure monitoring tools in order to make it easier to monitor the whole developing process, in a way the entire team can see at a glance, from the very first commit to the final release.
 
-Although our experimental release is a simple client made for the  TV, we do intend to make *stalkr* clients available on as much platforms as possible, which include:
+Although our experimental release is a simple client made for the Apple TV, we do intend to make *stalkr* clients available on as much platforms as possible, which include:
 
 - Other **Smart TV** platforms–e.g. Android TV, webOS, Tizen etc.;
 
